@@ -1,4 +1,4 @@
-# 将联配文件转化为phylip格式
+# part1: 将联配文件转化为phylip格式
 library(devtools)
 library(phylotools)
 dat <- read.fasta("ali_500pr.fa")
@@ -7,12 +7,12 @@ dat2phylip(dat, outfile = "500pr.phy")
 
 
 
-# Notepad++打开，alt+shift多光标批量删除，将phylip文件开头去除干净，获取protein.txt
-# 
+# 使用文本编辑器多光标编辑功能，如notepad++ (alt+shift)，将各行开头删除干净，如protein.txt
+# 在bla_500pr.fasta文件中复制粘贴自己的蛋白质序列，生成新文件，如query_protein.txt
 
 
 
-# 绘制热图
+# part2: 绘制热图
 num = 500 # 家族蛋白数量
 a_c_count <- read.csv('query_results.csv', sep = ',', header = T) # 'X.'实际为'-'
 sites <- read.csv('heatmap_sites.csv', sep = ',', header = F)
