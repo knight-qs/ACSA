@@ -44,3 +44,7 @@ site9    here is S:28    C:399 -:52
 9. 结果文件query_results.csv，筛选出的氨基酸种类及对应频数，下游R脚本绘制热图所需数据文件
 
 10. 结果文件heatmap_sites.csv，筛选出的蛋白质位点，下游R脚本绘制热图所需数据文件
+
+11. R脚本第二部分绘制热图
+
+![image](https://github.com/knight-qs/ACSA/blob/main/fig/a_c_count_heatmap.jpg)
