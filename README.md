@@ -1,10 +1,14 @@
-# ACSA
+## 原理
+
+<br>
+
+## 步骤
 
 1. 在NCBI比对蛋白质序列，获取蛋白质家族，如bla_500pr.fasta文件
 
 2. 使用在线工具，联配各蛋白质序列，如ali_500pr.fa文件
 
-3. 使用R脚本中的第一部分，将联配文件ali_500pr.fa文件转化为phylip格式，如500pr.phy
+3. 使用R脚本中的part1，将联配文件ali_500pr.fa文件转化为phylip格式，如500pr.phy
 
 4. 使用文本编辑器多光标编辑功能，如notepad++  (alt+shift)，将各行开头删除干净，如protein.txt
 
@@ -45,6 +49,6 @@ site9    here is S:28    C:399 -:52
 
 10. 结果文件heatmap_sites.csv，筛选出的蛋白质位点，下游R脚本绘制热图所需数据文件
 
-11. R脚本第二部分绘制热图
+11. 使用R脚本中的part2绘制热图
 
 ![image](https://github.com/knight-qs/ACSA/blob/main/fig/a_c_count_heatmap.jpg)
