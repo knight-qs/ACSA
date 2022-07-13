@@ -1,9 +1,9 @@
 # 将联配文件转化为phylip格式
 library(devtools)
 library(phylotools)
-dat <- read.fasta("alin-2.fas")
+dat <- read.fasta("ali_500pr.fa")
 
-dat2phylip(dat, outfile = "out.phy")
+dat2phylip(dat, outfile = "500pr.phy")
 
 # Notepad++打开，alt+shift多光标批量删除，将phylip文件开头去除干净
 
