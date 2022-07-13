@@ -5,7 +5,12 @@ dat <- read.fasta("ali_500pr.fa")
 
 dat2phylip(dat, outfile = "500pr.phy")
 
-# Notepad++打开，alt+shift多光标批量删除，将phylip文件开头去除干净
+
+
+# Notepad++打开，alt+shift多光标批量删除，将phylip文件开头去除干净，获取protein.txt
+# 
+
+
 
 # 绘制热图
 num = 500 # 家族蛋白数量
