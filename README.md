@@ -6,7 +6,7 @@
 
 3. 使用R脚本中的第一部分，将联配文件ali_500pr.fa文件转化为phylip格式，如500pr.phy
 
-4. 使用文本编辑器多光标编辑功能，如notepad++，将各行开头删除干净，如protein.txt
+4. 使用文本编辑器多光标编辑功能，如notepad++  (alt+shift)，将各行开头删除干净，如protein.txt
 
 5. 在bla_500pr.fasta文件中复制粘贴自己的蛋白质序列，生成新文件，如query_protein.txt
 
